@@ -1,8 +1,8 @@
-# Protokoły sieci Web
+# Wykonal:
 Kacper Korzekwa
 
 ## Name
-PSW_Shamisen_Tiles
+Multiplayer_Shamisen_Tiles
 
 ## Description
 - shamisen-tiles/
@@ -42,7 +42,7 @@ PSW_Shamisen_Tiles
     - [ ] Endpointy `/auth/register` oraz `/auth/login`.
     - [ ] Generowanie i weryfikacja tokenów JWT (`server/auth.py`).
 
-### Etap 2: REST API (Wymagania HTTP - 6 pkt)
+### Etap 2: REST API
 Implementacja operacji CRUD dla 4 typów zasobów:
 - [ ] **Użytkownicy (`/users`)**: Pobieranie profilu, edycja danych, usuwanie konta.
 - [ ] **Wyniki (`/scores`)**:
@@ -61,7 +61,7 @@ Implementacja operacji CRUD dla 4 typów zasobów:
     - [ ] Dodanie ekranu logowania/rejestracji przed menu głównym.
     - [ ] Podpięcie ekranów rankingu pod dane z API (zamiast plików `.txt`).
 
-### Etap 4: Protokoły Real-time (Wymagania MQTT/WS - 6 pkt)
+### Etap 4: Protokoły Real-time
 - [ ] **WebSocket (Frontendowy protokół)**:
     - [ ] Serwer: Endpoint `/ws/rankings` wysyłający powiadomienia o nowych rekordach.
     - [ ] Klient: Live-update tablicy wyników bez odświeżania.
@@ -69,7 +69,7 @@ Implementacja operacji CRUD dla 4 typów zasobów:
     - [ ] Implementacja "Panelu Admina" (skrypt wysyłający komendy).
     - [ ] Klient: Odbieranie komend (np. `SPEED_BOOST`, `KICK_PLAYER`) i reagowanie w czasie rzeczywistym w grze.
 
-### Etap 5: Finalizacja i "Inne" (6 pkt)
+### Etap 5: Finalizacja
 - [ ] **Dodatkowe funkcjonalności**:
     - [ ] Logowanie zdarzeń do pliku po stronie serwera.
     - [ ] Obsługa błędów połączenia (try-except) w kliencie (żeby gra nie crashowała offline).
