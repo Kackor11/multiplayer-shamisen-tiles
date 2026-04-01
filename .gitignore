@@ -1,0 +1,27 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Wirtualne środowiska ---
+venv/
+.venv/
+env/
+.env
+
+# --- Baza Danych (SQLite) ---
+*.db
+*.sqlite3
+shamisen.db
+
+# --- IDE i Edytory (VS Code) ---
+.vscode/
+.idea/
+
+# --- Logi i pliki systemowe ---
+*.log
+.DS_Store
+Thumbs.db
+
+# --- Inne ---
+__pypackages__/

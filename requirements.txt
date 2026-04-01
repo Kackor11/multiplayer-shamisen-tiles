@@ -1,0 +1,11 @@
+pygame
+pygame_gui
+fastapi
+uvicorn
+sqlmodel
+requests
+passlib[bcrypt]
+python-multipart
+python-jose[cryptography]
+paho-mqtt
+websockets

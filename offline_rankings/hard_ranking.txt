@@ -1,0 +1,4 @@
+1. Player 1:: 14
+2. Player 1: 11
+3. Player 1: 9
+4. Player 1: 7

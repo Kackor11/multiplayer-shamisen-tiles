@@ -1,0 +1,5 @@
+from src.core.launcher import Launcher
+
+if __name__ == "__main__":
+    app = Launcher()
+    app.main_menu()
